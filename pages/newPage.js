@@ -4,7 +4,7 @@ export default function newPage(){
   return(
       <div>
         <Head>
-            <title>Crafting stff</title>
+            <title>Crafting stuff</title>
         </Head>
         <main>
             <div>testerising</div>
