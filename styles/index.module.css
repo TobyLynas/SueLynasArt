@@ -28,15 +28,15 @@
 }
 
 .footer {
-  bottom: 50px;
+  bottom: 10px;
   display: flex;
   background-color: gray;
   justify-content: center;
   align-items: center;
   width: 50%;
   height: 30px;
-  position: absolute;
-  
+  position: fixed;
+  left: 25%;
 }
 
 .footFBox {
