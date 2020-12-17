@@ -16,11 +16,11 @@ export default function newPage(){
                 </style>
                   BEE CREATIVE
               </h1>
-              <ul className={styles.topList}>
-                <li>Nav1</li>
-                <li>Nav2</li>
-                <li>Nav3</li>
-                <li>Nav4</li>
+              <ul className={styles.toplist}>
+                <li className={styles.list}>Nav1</li>
+                <li className={styles.list}>Nav2</li>
+                <li className={styles.list}>Nav3</li>
+                <li className={styles.list}>Nav4</li>
               </ul>
             </div>
         </main>
