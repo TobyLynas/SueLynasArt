@@ -7,7 +7,7 @@ export default function newPage(){
         <Head>
             <title>Crafting stuff</title>
         </Head>
-
+        
         <main>
         </main>
       </div>
