@@ -18,6 +18,11 @@ function MyApp({ Component, pageProps }) {
       </ul>
     </div>
     <Component {...pageProps}/>
+    <div className={styles.footer}>
+      <div className={styles.footFBox}>
+        example text
+      </div>
+    </div>
     </div>
  )
 }
