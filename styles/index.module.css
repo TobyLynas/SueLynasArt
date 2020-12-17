@@ -33,10 +33,12 @@
   background-color: gray;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 30px;
+  width: 40%;
+  left: 30%;
+  height: 60px;
   position: fixed;
-  left: 25%;
+  border-radius: 15px;
+
 }
 
 .footFBox {
