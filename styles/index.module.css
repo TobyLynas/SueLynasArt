@@ -1,12 +1,18 @@
-.title {
+.topBar {
   display: flex;
   font-family: 'Roboto', sans-serif;
   background-color: #FFFFFF;
   height: 75px;
-  justify-content: center;
-  align-items: center;
-  letter-spacing: 15px;
   margin-top: 0;
+  align-items: center;
+  justify-content: space-around;
   }
 
-  
+.title {
+  letter-spacing: 15px;
+}
+
+.toplist{
+  font-size: small;
+  display: inline;
+}
