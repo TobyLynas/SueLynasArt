@@ -1,7 +1,12 @@
 .title {
-    margin: 0;
-    line-height: 1.15;
-    font-size: 4rem;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 15px;
+  margin-top: 0;
   }
 
   

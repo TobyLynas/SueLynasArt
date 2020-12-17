@@ -7,8 +7,15 @@ export default function newPage(){
         <Head>
             <title>Crafting stuff</title>
         </Head>
+
         <main>
-            <div>testerising</div>
+            <h1 className={styles.title}>
+            <style>
+              @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+            </style>
+              BEE CREATIVE
+              
+            </h1>
         </main>
       </div>
     )
