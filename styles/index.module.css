@@ -55,3 +55,9 @@
   padding: 0 20px;
   height: 2.5em;
 }
+
+.honeycomb {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+}

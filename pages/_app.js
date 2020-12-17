@@ -18,6 +18,9 @@ function MyApp({ Component, pageProps }) {
         </ul>
       </div>
       <Component {...pageProps}/>
+      <div>
+        <img src="/honeycomb.svg" className={styles.honeycomb} />
+      </div>
       <div className={styles.footContainer}>
         <div className={styles.footer}>
           <div className={styles.footFBox}>
