@@ -61,3 +61,15 @@
   bottom: 30px;
   right: 0;
 }
+
+.body {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  width: 35em;
+  padding: 25px 4em;
+  position: fixed;
+  bottom: 150px;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 10;
+}
