@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/index.module.css'
+import Gallery from '../components/gallery.js'
 
-export default function newPage(){
+export default function index(){
   return(
       <div>
         <Head>
@@ -9,6 +10,7 @@ export default function newPage(){
         </Head>
         
         <main>
+          <Gallery />
         </main>
       </div>
     )
