@@ -20,7 +20,6 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps}/>
       <div>
         <img src="/honeycomb.svg" className={styles.honeycomb} />
-        <div className={styles.body}>In orci metus, egestas et ipsum ut, elementum ullamcorper magna. Suspendisse congue velit in turpis lacinia aliquet. Aliquam hendrerit vitae nisl at ornare. In quis magna nisi. Fusce suscipit turpis nec lacus feugiat rutrum. Integer semper turpis vitae justo fermentum, sed imperdiet odio cursus. Maecenas vitae ultricies ipsum, non tempor dolor. Maecenas ac pretium mauris. Aliquam at semper sem.</div>
       </div>
       <div className={styles.footContainer}>
         <div className={styles.footer}>
