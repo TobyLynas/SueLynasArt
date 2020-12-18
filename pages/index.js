@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/index.module.css'
-import Gallery from '../components/gallery.js'
+import GalleryItem from '../components/gallery.js'
 
 export default function index(){
   return(
@@ -10,7 +10,7 @@ export default function index(){
         </Head>
         
         <main>
-          <Gallery />
+          <GalleryItem />
         </main>
       </div>
     )
