@@ -1,17 +1,21 @@
 import Image from 'next/image'
 import styles from './gallery.module.css'
-function GalleryItem () {
+
+
+
+function GalleryItem (props) {
   return (
     <div className={styles.container}>
-        <img src='gallery1.jpg' className={styles.galImage}></img>
+        <img src={props.image} className={styles.galImage}></img>
         <div className={styles.galTextBox}>
-          <div className={styles.galHeading}>SubHeading</div>
+          <div className={styles.galHeading}>{props.title}</div>
           <div className={styles.galText}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            {props.text}
           </div>
         </div>
       </div>
   )
 }
+
 
 export default GalleryItem

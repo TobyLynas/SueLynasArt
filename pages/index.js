@@ -10,7 +10,7 @@ export default function index(){
         </Head>
         
         <main>
-          <GalleryItem />
+          <GalleryItem title="PLACEHOLDER" text="lorem ipsum nanananaiuiums" image="gallery1.jpg"/>
         </main>
       </div>
     )
