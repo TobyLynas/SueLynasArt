@@ -3,31 +3,34 @@
     position: relative;
 }
 
-.imageOne{
+.galImage{
     height: 300px;
     width: 400px;
     box-shadow: 2px 3px 8px 2px rgba(0,0,0,0.57);
 }
 
-.heading{
-    text-emphasis: bold;
-    font-size: medium;
-    background: none;
-}
-
-.body {
-    background: none;
-    font-size: small;
-}
-
-.textBox {
+.galTextBox {
     position: absolute;
     z-index: 1001;
     bottom: 0;
-    background-color: rgba(175, 175, 175, 0.521);
+    background-color: rgba(0, 0, 0, 0.39);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     width: 400px;
     height: 60px;
     padding: 5px 5px;
 }
+
+.galHeading{
+    text-emphasis: bold;
+    font-size: medium;
+    background: none;
+    color: #C7F2CB;
+}
+
+.galText{
+    background: none;
+    font-size: small;
+    color: white;
+}
+
