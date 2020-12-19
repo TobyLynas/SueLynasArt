@@ -61,3 +61,12 @@
   bottom: 30px;
   right: 0;
 }
+
+.gallery{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagePadding{
+  padding: 50px;
+}
