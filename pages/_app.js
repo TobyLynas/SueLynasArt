@@ -1,8 +1,12 @@
 import '../styles/globals.css'
 import styles from '../styles/index.module.css'
+import Head from 'next/head'
 function MyApp({ Component, pageProps }) {
   return (
     <div>
+      <Head>
+      <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className={styles.topBar}>
         <h1 className={styles.title}>
           <style>

@@ -6,7 +6,7 @@ export default function index(){
   return(
       <div>
         <Head>
-            <title>Crafting stuff</title>
+          <title>Bee Creative</title>
         </Head>
         
         <main>
