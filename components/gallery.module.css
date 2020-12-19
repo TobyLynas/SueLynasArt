@@ -10,6 +10,17 @@
 }
 
 .heading{
+    text-emphasis: bold;
+    font-size: medium;
+    background: none;
+}
+
+.body {
+    background: none;
+    font-size: small;
+}
+
+.textBox {
     position: absolute;
     z-index: 1001;
     bottom: 0;
@@ -18,11 +29,5 @@
     backdrop-filter: blur(5px);
     width: 400px;
     height: 60px;
-    text-emphasis: bold;
-    font-size: medium;
-}
-
-.body {
-    background: none;
-    font-size: small;
+    padding: 5px 5px;
 }
