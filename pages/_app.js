@@ -18,9 +18,9 @@ function MyApp({ Component, pageProps }) {
         </h1>
         <ul className={styles.toplist}>
           <li className={styles.list}><Highlight title="index.js" name="Home"/></li>
-          <li className={styles.list}>Nav2</li>
-          <li className={styles.list}>Nav3</li>
-          <li className={styles.list}>Nav4</li>
+          <li className={styles.list}><Highlight title="painting.js" name="Painting"/></li>
+          <li className={styles.list}><Highlight title="organising.js" name="Organisng"/></li>
+          <li className={styles.list}><Highlight title="crafting.js" name="Crafting"/></li>
         </ul>
       </div>
       <Component {...pageProps}/>
