@@ -7,7 +7,7 @@ function highlight (props) {
          return(<div><Link href={props.title}><b className={styles.toplist}>{props.name}</b></Link></div>)
         }
      else {
-        return(<div className={styles.toplist}><Link  href={props.title}>{props.name}</Link></div>)
+        return(<div><Link href={props.title}><div className={styles.toplist}>{props.name}</div></Link></div>)
     }
 }
 export default highlight
