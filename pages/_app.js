@@ -1,6 +1,8 @@
 import '../styles/globals.css'
 import styles from '../styles/index.module.css'
 import Head from 'next/head'
+import Highlight from '../components/navselector.js'
+
 function MyApp({ Component, pageProps }) {
   return (
     <div>
@@ -10,15 +12,14 @@ function MyApp({ Component, pageProps }) {
       <div className={styles.topBar}>
         <h1 className={styles.title}>
           <style>
-          @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
           </style>
             BEE CREATIVE
         </h1>
         <ul className={styles.toplist}>
-          <li className={styles.list}>Nav1</li>
-          <li className={styles.list}>Nav2</li>
-          <li className={styles.list}>Nav3</li>
-          <li className={styles.list}>Nav4</li>
+          <li className={styles.list}><Highlight title="/" name="Home" id="index.js"/></li>
+          <li className={styles.list}><Highlight title="/painting" name="Painting" id="painting.js"/></li>
+          <li className={styles.list}><Highlight title="/organising" name="Organisng" id="organising.js"/></li>
+          <li className={styles.list}><Highlight title="/crafting" name="Crafting" id="crafting.js"/></li>
         </ul>
       </div>
       <div className={styles.pagePadding}>
