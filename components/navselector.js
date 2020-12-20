@@ -2,7 +2,7 @@ import {useRouter} from 'next/router'
 
 function highlight () {
     const router = useRouter()
-    router.pathname
+    return(router.pathname)
 }
 
 export default highlight

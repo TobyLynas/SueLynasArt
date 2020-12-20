@@ -1,6 +1,8 @@
 import '../styles/globals.css'
 import styles from '../styles/index.module.css'
 import Head from 'next/head'
+import Highlight from '../components/navselector.js'
+
 function MyApp({ Component, pageProps }) {
   return (
     <div>
@@ -15,7 +17,7 @@ function MyApp({ Component, pageProps }) {
             BEE CREATIVE
         </h1>
         <ul className={styles.toplist}>
-          <li className={styles.list}><Navselector /></li>
+          <li className={styles.list}><Highlight /></li>
           <li className={styles.list}>Nav2</li>
           <li className={styles.list}>Nav3</li>
           <li className={styles.list}>Nav4</li>
