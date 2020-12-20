@@ -1,11 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/index.module.css'
-<<<<<<< HEAD
-import Gallery from '../components/gallery.js'
-=======
 import GalleryItem from '../components/gallery.js'
 
->>>>>>> master
 export default function index(){
   return(
       <div>
