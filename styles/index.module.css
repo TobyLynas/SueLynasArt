@@ -6,6 +6,7 @@
   margin-top: 0;
   align-items: center;
   justify-content: space-around;
+  z-index: -1;
   }
 
 .title {
@@ -60,6 +61,7 @@
   position: absolute;
   bottom: 30px;
   right: 0;
+  z-index: -1;
 }
 
 .gallery{
