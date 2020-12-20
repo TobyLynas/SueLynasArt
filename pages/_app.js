@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
             BEE CREATIVE
         </h1>
         <ul className={styles.toplist}>
-          <li className={styles.list}><Highlight title="painting.js" name=""/></li>
+          <li className={styles.list}><Highlight title="index.js" name="Home"/></li>
           <li className={styles.list}>Nav2</li>
           <li className={styles.list}>Nav3</li>
           <li className={styles.list}>Nav4</li>

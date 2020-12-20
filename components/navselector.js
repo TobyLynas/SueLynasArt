@@ -2,11 +2,11 @@ import {useRouter} from 'next/router'
 
 function highlight (props) {
     const router = useRouter()
-    if (router.pathname === props.title) {
-        return(<div>Success</div>)
+    if (router.pathname = props.title) {
+        return(<div>{props.name}</div>)
     }
     else {
-        return(<div>Failure</div>)
+        return(<div>{props.name}</div>)
     }
 }
 
