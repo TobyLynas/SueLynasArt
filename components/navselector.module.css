@@ -1,7 +1,6 @@
-.bold{
-    color: red;
-}
-
-.normal{
-    color: black;
+.toplist{
+  background-color: #FFFFFF;
+  font-size: small;
+  display: flex;
+  list-style: none;
 }
