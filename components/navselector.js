@@ -1,14 +1,14 @@
 import {useRouter} from 'next/router'
-import styles from '../components/navselector.module.css'
+
 
 function highlight (props) {
-    const router = useRouter()
-    if (router.pathname = props.title) {
-        return(<div className={styles.bold}>{props.name}</div>)
-    }
-    else {
-        return(<div className={styles.normal}>{props.name}</div>)
+    let router = useRouter()
+    console.log(router.pathname)
+    if(router.pathname === props.title){
+         return(<div><b>{props.name}</b></div>)
+        }
+     else {
+        return(<div>{props.name}</div>)
     }
 }
-
 export default highlight
