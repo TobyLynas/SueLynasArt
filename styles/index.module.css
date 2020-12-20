@@ -62,6 +62,14 @@
   right: 0;
 }
 
+.gallery{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagePadding{
+  padding: 50px;
+}
 .body {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

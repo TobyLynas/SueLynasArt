@@ -1,6 +1,11 @@
 import Head from 'next/head'
 import styles from '../styles/index.module.css'
+<<<<<<< HEAD
 import Gallery from '../components/gallery.js'
+=======
+import GalleryItem from '../components/gallery.js'
+
+>>>>>>> master
 export default function index(){
   return(
       <div>
@@ -9,8 +14,11 @@ export default function index(){
         </Head>
         
         <main>
-          <Gallery />
-          <div className={styles.body}>In orci metus, egestas et ipsum ut, elementum ullamcorper magna. Suspendisse congue velit in turpis lacinia aliquet. Aliquam hendrerit vitae nisl at ornare. In quis magna nisi. Fusce suscipit turpis nec lacus feugiat rutrum. Integer semper turpis vitae justo fermentum, sed imperdiet odio cursus. Maecenas vitae ultricies ipsum, non tempor dolor. Maecenas ac pretium mauris. Aliquam at semper sem.</div>
+          <div className={styles.gallery}>
+            <GalleryItem title="Projects" text="Check out my latest big projects and large works!" image="gallery1.jpg"/>
+            <GalleryItem title="Crafting" text="Crafting of all kinds! Have a look at my adorable festive decorations or browse pre-made kits!" image="crafting.webp"/>
+            <GalleryItem title="Painting" text="The center for all my painting projects and sessions! Click here to give it a Van Gough!" image="painting.jpg"/>
+          </div>
         </main>
       </div>
     )
