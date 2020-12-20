@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router'
 
-function highlight () {
+function highlight (props) {
     const router = useRouter()
     return(router.pathname)
 }
