@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
             BEE CREATIVE
         </h1>
         <ul className={styles.toplist}>
-          <li className={styles.list}>Nav1</li>
+          <li className={styles.list}><Navselector /></li>
           <li className={styles.list}>Nav2</li>
           <li className={styles.list}>Nav3</li>
           <li className={styles.list}>Nav4</li>
