@@ -21,9 +21,14 @@ function MyApp({ Component, pageProps }) {
           <li className={styles.list}><Highlight title="/crafting" name="Crafting" id="crafting.js"/></li>
         </ul>
       </div>
+<<<<<<< HEAD
       <div className={styles.pagePadding}>
          <Component {...pageProps}/>
       </div>
+=======
+      <div className={styles.pagePadding}></div>
+      <Component {...pageProps}/>
+>>>>>>> master
       <div>
         <img src="/honeycomb.svg" className={styles.honeycomb} />
       </div>
