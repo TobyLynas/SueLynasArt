@@ -1,6 +1,12 @@
 .toplist{
-  background-color: #FFFFFF;
+  background-color: white;
   font-size: small;
   display: flex;
   list-style: none;
+}
+
+.toplist:hover,
+.toplist:focus,
+.toplist:active {
+  text-decoration: underline;
 }
