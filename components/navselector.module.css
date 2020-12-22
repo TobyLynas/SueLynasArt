@@ -5,8 +5,6 @@
   list-style: none;
 }
 
-.toplist:hover,
-.toplist:focus,
-.toplist:active {
-  text-decoration: underline;
+.toplist:hover {
+  color: #91ad94;
 }
