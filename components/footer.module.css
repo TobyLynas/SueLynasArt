@@ -5,7 +5,10 @@
     position: fixed;
     bottom: 0;
   }
-  .footer {
+
+  
+  .footFBox {
+    color: Black;
     bottom: 20px;
     display: flex;
     background-color: #EEEDED, 100%;
@@ -19,11 +22,11 @@
     align-content: space-between;
   }
   
-  .footFBox {
-    color: Black;
-  }
-  
   .logo {
     padding: 0 20px;
     height: 2.5em;
+  }
+
+  .enlarge:hover{
+    transform: scale(1.1);
   }
