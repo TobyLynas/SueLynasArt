@@ -7,4 +7,5 @@
 
 .toplist:hover {
   color: #91ad94;
+  cursor: pointer;
 }
