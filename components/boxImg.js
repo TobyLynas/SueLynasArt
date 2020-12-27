@@ -1,4 +1,4 @@
-import styles from './craftingBox.module.css'
+import styles from './boxImg.module.css'
 function boxImg(props) {
     if (props.side==='right'){
         return(
