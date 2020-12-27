@@ -1,14 +1,18 @@
 import styles from '../components/paintingGallery.module.css'
-
+function Item(props){
+    return(
+        <img className={styles.image} src={props.src}></img>
+    )
+}
 function paintingGallery(props) {
     return(
         <div className={styles.main}>
-            <div className={styles.item1}></div>
-            <div className={styles.item2}></div>
-            <div className={styles.item3}></div>
-
+            {props.imgSources.map((imgSource) => (
+                <Item src={imgSource}></Item>
+            ))}
         </div>
     )
 }
+
 
 export default paintingGallery
