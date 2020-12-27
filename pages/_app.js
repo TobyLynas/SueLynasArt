@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import styles from '../styles/index.module.css'
 import Head from 'next/head'
 import Footer from '../components/footer.js'
-import Topnav from '../components/Topnav.js'
+import Topnav from '../components/topNav.js'
 
 
 function MyApp({ Component, pageProps }) {
