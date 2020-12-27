@@ -1,5 +1,5 @@
 import styles from './topnav.module.css'
-import Highlight from './navselector.js'
+import Highlight from './navSelector.js'
 function Topnav (props){
     return(
         <div className={styles.topBar}>
