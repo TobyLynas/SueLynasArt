@@ -3,3 +3,7 @@
     height: 400px;
     background-color: blue;
 }
+
+.img{
+    max-height: 400px;
+}
