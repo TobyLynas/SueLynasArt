@@ -10,6 +10,7 @@
     }
   
   .title {
+    text-transform: uppercase;
     letter-spacing: 15px;
     background-color: #FFFFFF;
     
