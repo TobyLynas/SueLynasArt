@@ -1,5 +1,7 @@
 .main{
     display: flex;
     height: 4000px;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
 }
