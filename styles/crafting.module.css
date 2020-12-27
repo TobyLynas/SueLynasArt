@@ -1,0 +1,7 @@
+.main{
+    display: flex;
+    height: 3500px;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
