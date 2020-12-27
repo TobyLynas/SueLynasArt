@@ -2,7 +2,7 @@ import styles from './craftingBox.module.css'
 
 function boxImg(props) {
     return(
-        <div>
+        <div className={styles.box}>
         </div>
     )
 }

@@ -8,7 +8,7 @@ export default function newPage(){
         <Head>
             <title>Crafting!</title>
         </Head>
-        <main>
+        <main className={styles.main}>
           <BoxImg></BoxImg>
         </main>
     </div>
