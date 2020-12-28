@@ -5,9 +5,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 300px 40px 1fr;
-    gap: 80px;
+    grid-gap: 50px;
+    padding: 0 10%;
 }
 
 .image{
     max-width: 300px;
+    width: 100%;
 }
