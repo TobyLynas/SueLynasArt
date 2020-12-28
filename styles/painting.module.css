@@ -1,0 +1,10 @@
+.page{
+    height: 3000px
+}
+.pageDisc{
+    background-color: #ECECEC;
+    padding: 30px;
+    width: 50%;
+    border-radius: 15px;
+    transform: translateX(20%);
+}

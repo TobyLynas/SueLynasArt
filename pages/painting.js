@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import styles from '../styles/index.module.css'
+import styles from '../styles/painting.module.css'
+import ImgGrid from '../components/imgGrid.js'
 
 export default function newPage(){
   return(
@@ -7,6 +8,10 @@ export default function newPage(){
         <Head>
             <title>Painting!</title>
         </Head>
+        <main className={styles.page}>
+          <div className={styles.pageDisc}>This is the painting page!<br/><br/>A longer discriptipn goes here! Filler - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+          <ImgGrid imgSources={['painting1.jpg','painting2.jpg','painting3.jpg','painting4.jpg','painting5.jpg','painting6.jpg','painting7.jpg','painting8.jpg','painting9.jpg']}></ImgGrid>
+        </main>
     </div>
   )
 }
