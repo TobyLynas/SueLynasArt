@@ -4,7 +4,7 @@
     height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 300px 40px 1fr;
+    grid-template-rows: 300px 300px 300px;
     grid-gap: 50px;
     padding: 0 20%;
 }
