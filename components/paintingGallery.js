@@ -1,7 +1,7 @@
 import styles from '../components/paintingGallery.module.css'
 function Item(props){
     return(
-        <img onclick={styles.enlarge} className={styles.image} src={props.src}></img>
+        <img className={styles.image} src={props.src}></img>
     )
 }
 function paintingGallery(props) {
