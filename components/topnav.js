@@ -1,5 +1,17 @@
 import styles from './topnav.module.css'
-import Highlight from './navSelector.js'
+import {useRouter} from 'next/router'
+import Link from 'next/link'
+
+function Highlight (props) {
+    let router = useRouter()
+    if(router.pathname === props.title){
+         return(<div><Link href={props.title}><b className={styles.navSel}>{props.name}</b></Link></div>)
+        }
+     else {
+        return(<div><Link href={props.title}><div className={styles.navSel}>{props.name}</div></Link></div>)
+    }
+}
+
 function Topnav (props){
     return(
         <div className={styles.topBar}>
