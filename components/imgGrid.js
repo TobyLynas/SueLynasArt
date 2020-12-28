@@ -1,10 +1,10 @@
-import styles from '../components/paintingGallery.module.css'
+import styles from '../components/imgGrid.module.css'
 function Item(props){
     return(
         <img className={styles.image} src={props.src}></img>
     )
 }
-function paintingGallery(props) {
+function imgGrid(props) {
     return(
         <div className={styles.main}>
             {props.imgSources.map((imgSource) => (
@@ -15,4 +15,4 @@ function paintingGallery(props) {
 }
 
 
-export default paintingGallery
+export default imgGrid
