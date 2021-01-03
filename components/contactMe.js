@@ -11,6 +11,7 @@ function contactMe(props){
                 CONTACT ME <br/>
                 <div className={styles.subText}>
                     07845053275<br/>
+                    <br/>
                     beecreativeoffice@gmail.com
                 </div>
             </div>
