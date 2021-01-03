@@ -8,10 +8,9 @@ function contactMe(props){
             </div>
             <div className={styles.gap}/>
             <div className={styles.bottomBox}>
-                CONTACT ME <br/>
+                <b className={styles.bottomBox}>CONTACT ME</b> <br/>
                 <div className={styles.subText}>
                     07845053275<br/>
-                    <br/>
                     beecreativeoffice@gmail.com
                 </div>
             </div>
