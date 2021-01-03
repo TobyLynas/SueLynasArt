@@ -7,27 +7,32 @@
   }
 
   
-  .footFBox {
-    color: Black;
-    bottom: 20px;
-    display: flex;
-    background-color: #EEEDED, 100%;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    left: 30%;
-    height: 60px;
-    position: fixed;
-    border-radius: 15px;
-    align-content: space-between;
-  }
+.footFBox {
+  color: Black;
+  bottom: 20px;
+  display: flex;
+  background-color: #EEEDED, 100%;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  left: 30%;
+  height: 60px;
+  position: fixed;
+  border-radius: 15px;
+  align-content: space-between;
+}
   
-  .logo {
-    padding: 0 20px;
-    height: 2.5em;
-  }
+.logo {
+  padding: 0 20px;
+  height: 2.5em;
+}
 
-  .enlarge:hover{
-    transform: scale(1.1);
-    transition: 0.35s;
-  }
+.enlarge:hover{
+  transform: scale(1.1);
+  transition: 0.35s;
+}
+
+.enlarge{
+  transform: scale(1);
+  transition: 0.35s;
+}
