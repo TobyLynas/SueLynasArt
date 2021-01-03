@@ -29,4 +29,5 @@
 
   .enlarge:hover{
     transform: scale(1.1);
+    transition: 0.35s;
   }
