@@ -16,7 +16,7 @@ export default function index(){
             <GalleryItem title="Crafting" text="Crafting of all kinds! Have a look at my adorable festive decorations or browse pre-made kits!" image="crafting.webp"/>
             <GalleryItem title="Painting" text="The center for all my painting projects and sessions! Click here to give it a Van Gough!" image="painting.jpg"/>
           </div>
-          <ContactMe></ContactMe>
+          <ContactMe/>
         </main>
       </div>
     )
