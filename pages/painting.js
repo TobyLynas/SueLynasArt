@@ -9,7 +9,7 @@ export default function newPage(){
             <title>Painting!</title>
         </Head>
         <main className={styles.page}>
-          <PageHeading title="Painting!" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dui neque."></PageHeading>
+          <PageHeading title="Painting!" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dui neque."/>
         </main>
     </div>
   )
