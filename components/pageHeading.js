@@ -6,7 +6,7 @@ function pageHeading(props) {
             <div className={styles.box}>
                 <div className={styles.title}>
                     {props.title}
-                <div className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dui neque.</div>
+                <div className={styles.text}>{props.text}</div>
                 </div>
             </div>
         </div>
