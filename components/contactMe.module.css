@@ -1,0 +1,33 @@
+.main{
+    margin: 50px auto;
+    width: 420px;
+    height: auto;
+    background-color: #EEEDED;
+    text-align: center;
+}
+
+.topBox{
+    padding: 10px;
+    background: white;
+    font-size: 14pt;
+    font-family: 'Open Sans';
+}
+.gap{
+    height: 5px;
+}
+
+.bottomBox{
+    background: white;
+    font-size: 24pt;
+    font-family: 'Open Sans';
+    padding: 10px;
+
+}
+
+.subText{
+    background: inherit;
+    font-size: 14pt;
+    font-family: 'Open Sans';
+    padding: 10px;
+
+}
