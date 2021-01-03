@@ -16,7 +16,7 @@
 .title{
     text-align: center;
     color: #565656;
-    font-style: bold;
+    font-weight: bold;
     font-size: 30px;
     background-color: inherit;
     padding: 20px;
@@ -25,7 +25,9 @@
 }
 .text{
     color: #565656;
+    font-weight: normal;
     font-size: 20px;
     background-color: inherit;
-    padding: 20px;
+    padding: 10px;
+    padding-top: 30px;
 }
