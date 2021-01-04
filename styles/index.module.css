@@ -9,6 +9,7 @@
 .scrollGallery{
   display: flex;
   justify-content: center;
+
 }
 .pagePadding{
   padding: 100px;
