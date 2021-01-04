@@ -6,14 +6,20 @@
   z-index: -1;
 }
 
-.gallery{
+.scrollGallery{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+.pagePadding{
+  padding: 100px;
 }
 
-.pagePadding{
-  padding: 50px;
+.contactMe{
+  display: flex;
+  justify-content: center;
+  transform: translateY(-100px)
 }
+
 .body {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,7 +27,7 @@
   width: 35em;
   padding: 25px 4em;
   position: fixed;
-  bottom: 150px;
+  top: 10px;
   background-color: rgba(0, 0, 0, 0);
   z-index: 10;
 }
