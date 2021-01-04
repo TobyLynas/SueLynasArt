@@ -1,3 +1,7 @@
+.img{
+    display: relative;
+}
+
 .childBox{
     background-color: white;
     color: #565656;
@@ -12,6 +16,17 @@
 
 }
 
-.img{
-    display: relative;
+.buttons{
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-flex;
+    width: 200px;
+    height: 100px;
+    transform: translateX(-530px) translateY(-100px);
+}
+.LButton{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.RButton{
+    background-color: rgba(0, 0, 0, 0);
 }
