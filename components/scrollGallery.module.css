@@ -24,12 +24,15 @@
     display: flex;
     width: 200px;
     height: 100px;
-    transform: translate(155px, 150px);
+    transform: translate(130px, 150px);
+    justify-content: space-around;
 }
 .LButton{
     background-color: rgba(0, 0, 0, 0);
+    /*border: none;*/
 }
 
 .RButton{
     background-color: rgba(0, 0, 0, 0);
+    /*border: none;*/
 }
