@@ -8,7 +8,7 @@ const ScrollGalleryButton = (props) => {
       )
 }
 function scrollGallery(props){
-    const picDir = ['1.png', '2.png', '3.png', ]
+    const picDir = ['1.png', '2.png', '3.png', 'craftingImg.png', 'crafting.webp']
     const [picIndex, setPicIndex] = useState(0);
     if (picIndex === picDir.length) { //value should be last index number of picDir
         setPicIndex(0)

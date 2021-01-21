@@ -2,6 +2,8 @@
 .img{
     display: fixed;
     right: 0;
+    width: 926px;
+    height: 445px;
 }
 .textBox{
     background-color: white;
@@ -45,12 +47,13 @@
     transform: translate(0, -280px)
 }
 .barBut {
-    -webkit-transform:skew(30deg);
-    -moz-transform:skew(30deg);
-    -o-transform:skew(30deg);
     transform:skew(330deg);
     width: 100px;
-
+    transition: 0.25s;
+}
+.barBut:hover{
+    transform: scale(1.1) skew(330deg);
+    transition: 0.25s;
 }
 
 .b1{
