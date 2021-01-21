@@ -7,6 +7,11 @@ import { useState } from 'react';
 function scrollGallery(props){
     const picDir = ['1.png', '2.png', '3.png']
     const [picIndex, setPicIndex] = useState(0);
+    if (picIndex === 3) {
+        setPicIndex(0)
+    } if (picIndex===-1){
+        setPicIndex(3)
+    } 
     
         return(
         <div className={styles.page}>
