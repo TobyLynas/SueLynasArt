@@ -25,6 +25,16 @@ function scrollGallery(props){
                 </div>
             </div>
             <div className={styles.selBar}>
+                <button className={styles.But1} ><img className={styles.childImg} src='craftingImg.png' /></button>
+                <button className={styles.But1} ></button>
+                <button className={styles.But1} ></button>
+                <button className={styles.But1} ></button>
+                <button className={styles.But1} ></button>
+                <button className={styles.But1} ></button>
+                <button className={styles.But1} ></button>
+                <button className={styles.But1} ></button>
+                <button className={styles.But1} ></button>
+
             </div>
         </div>
 
