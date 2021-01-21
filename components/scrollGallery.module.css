@@ -38,8 +38,9 @@
 
 .selBar{
     display: flex;
-    background-color: red;
+    background-color: rgba(105, 105, 105, 0.336);
     z-index: 1;
     height: 100px;
     width: 100%;
+    transform: translate(0, -280px)
 }

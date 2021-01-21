@@ -18,7 +18,7 @@
 .contactMe{
   display: flex;
   justify-content: center;
-  transform: translateY(-100px)
+  padding-top: 100px;
 }
 
 .body {

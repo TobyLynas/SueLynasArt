@@ -25,7 +25,6 @@ function scrollGallery(props){
                 </div>
             </div>
             <div className={styles.selBar}>
-                test
             </div>
         </div>
 
