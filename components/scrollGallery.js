@@ -7,7 +7,7 @@ function scrollGallery(props){
     if (picIndex === 3) { //value should be last index number of picDir
         setPicIndex(0)
     } if (picIndex===-1){ 
-        setPicIndex(3) //value should be last index number of picDirs
+        setPicIndex(2) //value should be last index number of picDirs - 1 to account for arr indexing
     } 
     
     return(
@@ -24,7 +24,11 @@ function scrollGallery(props){
                     </button>
                 </div>
             </div>
+            <div className={styles.selBar}>
+                test
+            </div>
         </div>
+
     </div>
     )
 }
