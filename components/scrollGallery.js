@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const ScrollGalleryButton = (props) => {
     return (
-        <button onClick={props.handleClick} className={styles.barBut}> <img className={styles.childImg} src={props.image}/> </button>
+        <button onClick={props.handleClick} className={props.class}> <img className={styles.childImg} src={props.image}/> </button>
       )
 }
 function scrollGallery(props){
@@ -15,14 +15,10 @@ function scrollGallery(props){
     } if (picIndex===-1){ 
         setPicIndex(picDir.length-1) //value should be last index number of picDirs - 1 to account for arr indexing
     } 
-    let source = picDir[picIndex]
-    console.log({source})
-    let found = picDir.indexOf(source)
-    console.log({found})
     return(
     <div className={styles.page}>
         <div className={styles.container}>
-            <img className={styles.img} src= {source} />
+            <img className={styles.img} src= {picDir[picIndex]} />
             <div className={styles.textBox}>Lorem Ipsum
                 <div className={styles.buttons}>
                     <button type ='button' onClick={() => setPicIndex(picIndex - 1)} className={styles.LButton}>
@@ -34,7 +30,7 @@ function scrollGallery(props){
                 </div>
             </div>
             <div className={styles.selBar}>
-                {picDir.map((img, i) => <ScrollGalleryButton handleClick={() => {setPicIndex(i)}} image={img} />)}
+                {picDir.map((img, i) => <ScrollGalleryButton class={img===picDir[picIndex]?styles.found:styles.barBut}  handleClick={() => {setPicIndex(i)}} image={img} />)}
             </div>
         </div>
 

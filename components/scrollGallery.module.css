@@ -71,6 +71,9 @@
     object-fit: cover;
 }
 
-.selected{
+.found{
+    background-color: red;
     transform: scale(1.3);
+    transform:skew(330deg);
+    width: 100px;
 }
