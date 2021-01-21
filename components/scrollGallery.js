@@ -15,10 +15,14 @@ function scrollGallery(props){
     } if (picIndex===-1){ 
         setPicIndex(picDir.length-1) //value should be last index number of picDirs - 1 to account for arr indexing
     } 
+    let source = picDir[picIndex]
+    console.log({source})
+    let found = picDir.indexOf(source)
+    console.log({found})
     return(
     <div className={styles.page}>
         <div className={styles.container}>
-            <img className={styles.img} src= {picDir[picIndex]} />
+            <img className={styles.img} src= {source} />
             <div className={styles.textBox}>Lorem Ipsum
                 <div className={styles.buttons}>
                     <button type ='button' onClick={() => setPicIndex(picIndex - 1)} className={styles.LButton}>
