@@ -20,6 +20,10 @@
     transform: translate(600px, -375px);
     box-shadow: 5px 5px 8px 3px rgba(0,0,0,0.24);
 }
+.subtext{
+    font-size: 17px;
+    background: none;
+}
 
 .container{
     height: 550px;
@@ -30,7 +34,7 @@
     display: flex;
     width: 200px;
     height: 100px;
-    transform: translate(130px, 185px);
+    transform: translate(140px, 5px);
     justify-content: space-around;
 }
 
@@ -70,7 +74,8 @@
     z-index: 1;
     height: 100px;
     width: 100%;
-    transform: translate(0, -280px)
+    transform: translate(0, -280px);
+    justify-content: center;
 }
 
 .barBut {
