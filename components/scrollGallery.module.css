@@ -38,21 +38,35 @@
     background: none;
     border: none;
     outline: none;
+    transition: 0.15s;
 }
-
+.LButton:hover{
+    transform: scale(1.05);
+    transition: 0.15s;
+}
+.LButton:active{
+    transform: scale(0.95)
+}
 .RButton{
     background: none;
     border: none;
     outline: none;
+    transition: 0.15s;
 }
 
+.RButton:hover{
+    transform: scale(1.05);
+    transition: 0.15s;
+}
+.RButton:active{
+    transform: scale(0.95)
+}
 .butImg{
     background: inherit;
 }
 
 .selBar{
     display: flex;
-    background-color: rgba(105, 105, 105, 0.336);
     z-index: 1;
     height: 100px;
     width: 100%;
@@ -64,27 +78,32 @@
     width: 100px;
     transition: 0.25s;
     overflow: hidden;
-
+    border: 1px solid black;
 }
 
 .barBut:hover{
     transform: scale(1.1) skew(330deg);
     transition: 0.25s;
     overflow: hidden;
+    outline: none;
+    z-index: 4;
 }
 
 
 .childImg{
     height: 100px;
     right: 0;
-    transform: translate(-30%, -10%) skew(-330deg);
+    transform: translate(-30%, -2%) skew(-330deg);
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .found{
-    transform:skew(330deg) scale(1.1);
+    transform:skew(330deg) scale(1.15);
     width: 100px;
     overflow: hidden;
+    border: 1px solid black;
+    outline: none;
+    z-index: 5;
 }
