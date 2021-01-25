@@ -15,9 +15,9 @@ function Highlight (props) {
 function Topnav (props){
     return(
         <div className={styles.topBar}>
-            <h1 className={styles.title}>
-                {props.title}
-            </h1>
+            <div className={styles.title}>
+                <img src='logoImg.png' />
+            </div>
             <ul className={styles.toplist}>
                 <li className={styles.list}><Highlight title="/" name="Home" id="index.js"/></li>
                 <li className={styles.list}><Highlight title="/painting" name="Painting" id="painting.js"/></li>
