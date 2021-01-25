@@ -34,7 +34,7 @@
     display: flex;
     width: 200px;
     height: 100px;
-    transform: translate(140px, 5px);
+    transform: translate(375%, -520%);
     justify-content: space-around;
 }
 
