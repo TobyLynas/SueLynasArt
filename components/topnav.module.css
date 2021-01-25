@@ -10,10 +10,8 @@
     }
   
   .title {
-    text-transform: uppercase;
-    letter-spacing: 15px;
-    background-color: #FFFFFF;
-    
+    background-color: white;
+    transform: scale(0.7);
   }
   
   .toplist{
