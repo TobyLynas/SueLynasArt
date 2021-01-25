@@ -1,0 +1,116 @@
+
+.img{
+    display: fixed;
+    right: 0;
+    width: 926px;
+    height: 445px;
+    border: 1px black solid;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textBox{
+    background-color: white;
+    color: #565656;
+    width: 500px;
+    height: 300px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 40px 60px;
+    transform: translate(600px, -375px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.subText{
+    font-weight: normal;
+    padding-top: 25px;
+    font-size: 17px;
+    background: none;
+}
+
+.container{
+    height: 550px;
+}
+
+.buttons{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    width: 200px;
+    height: 100px;
+    transform: translate(415%, -520%);
+    justify-content: space-around;
+}
+
+.LButton{
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.15s;
+}
+.LButton:hover{
+    transform: scale(1.05);
+    transition: 0.15s;
+}
+.LButton:active{
+    transform: scale(0.95)
+}
+.RButton{
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.15s;
+}
+
+.RButton:hover{
+    transform: scale(1.05);
+    transition: 0.15s;
+}
+.RButton:active{
+    transform: scale(0.95)
+}
+.buttonImg{
+    background: inherit;
+}
+
+.selectorBar{
+    display: flex;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    transform: translate(0, -280px);
+    justify-content: center;
+}
+
+.barButton {
+    transform:skew(330deg);
+    width: 100px;
+    transition: 0.25s;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.barButton:hover{
+    transform: scale(1.1) skew(330deg);
+    transition: 0.25s;
+    overflow: hidden;
+    outline: none;
+    z-index: 4;
+}
+
+
+.childImg{
+    height: 100px;
+    right: 0;
+    transform: translate(-30%, -2%) skew(-330deg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.found{
+    transform:skew(330deg) scale(1.15);
+    width: 100px;
+    overflow: hidden;
+    border: 1px solid black;
+    outline: none;
+    z-index: 5;
+}
