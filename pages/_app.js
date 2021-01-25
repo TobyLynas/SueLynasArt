@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
       <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Topnav title="Bee Creative" />
+      <Topnav/>
       <div className={styles.pagePadding}>
          <Component {...pageProps}/>
       </div>

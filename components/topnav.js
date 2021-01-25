@@ -12,7 +12,7 @@ function Highlight (props) {
     }
 }
 
-function Topnav (props){
+function Topnav (){
     return(
         <div className={styles.topBar}>
             <div className={styles.title}>
