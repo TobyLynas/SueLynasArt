@@ -20,7 +20,7 @@
     transform: translate(600px, -375px);
     box-shadow: 5px 5px 8px 3px rgba(0,0,0,0.24);
 }
-.subtext{
+.subText{
     font-size: 17px;
     background: none;
 }
@@ -65,11 +65,11 @@
 .RButton:active{
     transform: scale(0.95)
 }
-.butImg{
+.buttonImg{
     background: inherit;
 }
 
-.selBar{
+.selectorBar{
     display: flex;
     z-index: 1;
     height: 100px;
@@ -78,7 +78,7 @@
     justify-content: center;
 }
 
-.barBut {
+.barButton {
     transform:skew(330deg);
     width: 100px;
     transition: 0.25s;
@@ -86,7 +86,7 @@
     border: 1px solid black;
 }
 
-.barBut:hover{
+.barButton:hover{
     transform: scale(1.1) skew(330deg);
     transition: 0.25s;
     overflow: hidden;
