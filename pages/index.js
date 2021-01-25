@@ -12,7 +12,7 @@ export default function index(){
         
         <main>
           <div className={styles.scrollGallery}>
-            <ScrollGallery></ScrollGallery>
+            <ScrollGallery/>
           </div>
           <div className={styles.contactMe}>
             <ContactMe/>
